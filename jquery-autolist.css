@@ -1,0 +1,40 @@
+body {
+	font-size: 12px;
+}
+.ui-autolist {
+	position: relative;
+	overflow: hidden;
+	min-height: 1.75em;
+	cursor: text;
+}
+.ui-autolist-values {
+	float: left;
+	overflow: hidden;
+}
+.ui-autolist-selected {
+	position: relative;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 2px;
+	padding: 0 20px 0 3px;
+	cursor: default;
+	text-align: left;
+}
+.ui-autolist-remove {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	float: right;
+	cursor: pointer;
+}
+.ui-autolist-input {
+	display: block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+	margin: 3px;
+}
